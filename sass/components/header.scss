@@ -1,0 +1,10 @@
+.header {
+  & .container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    background-color: $bg-color-white;
+  }
+}
