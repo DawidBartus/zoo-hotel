@@ -1,52 +1,3 @@
-li {
-  list-style: none;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  line-height: 1.14;
-}
-
-.container {
-  margin: 0 auto;
-  min-width: 320px;
-  max-width: 1200px;
-  background-color: rgba(196, 182, 182, 0.5254901961);
-  position: relative;
-}
-
-.dog-paws {
-  position: absolute;
-  left: 3px;
-  top: 15px;
-  width: 80px;
-  height: 80px;
-  z-index: 3;
-  fill: black;
-}
-
-.dog-paws use {
-  width: 40px;
-  height: 40px;
-}
-
-.main__photo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 1200px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .mobile__menu {
   background-color: rgba(37, 37, 37, 0.5568627451);
   font-size: 40px;
@@ -108,32 +59,4 @@ body {
   height: 30px;
   top: 0;
   right: 0;
-}
-
-.contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  display: none;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 10px;
-  font-size: 14px;
-}
-.contact__link {
-  text-decoration: none;
-  color: #757575;
-}
-.contact__link:hover {
-  color: #234e70;
-  text-shadow: 0px 10px 13px #295b81;
-}
-
-@media screen and (min-width: 768px) {
-  .contact {
-    display: block;
-  }
-}
-.navigation {
-  display: none;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=header.css.map */
