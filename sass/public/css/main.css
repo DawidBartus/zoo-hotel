@@ -15,19 +15,31 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
 }
 .main__header {
-  font-size: 40px;
-  color: white;
+  font-size: 32px;
   width: 100%;
   max-width: 450px;
   margin: 0 auto;
   text-align: center;
 }
 .main__button {
-  text-align: center;
   background-color: #3f72af;
-  color: white;
-  font-size: 32px;
-  padding: 10px 70px;
+  font-size: 24px;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }/*# sourceMappingURL=main.css.map */

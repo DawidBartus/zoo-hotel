@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="../public/css/main.min.css" />
   </head>
   <body>
@@ -71,32 +75,25 @@
         <h1 class="main__header">
           Bezpieczne miejsce, dla twojego psiego przyjaciela
         </h1>
-        <button class="main__button">Zarezerwuj pobyt</button>
+        <a href="" class="main__button">Zarezerwuj pobyt</a>
       </div>
     </main>
-    <div class="container">
-      <ul class="we-do">
-        <li class="we-do__list">
-          <svg class="we-do__svg">
-            <use class="we-do__icon"></use>
-          </svg>
-        </li>
-        <li class="we-do__list">
-          <svg class="we-do__svg">
-            <use class="we-do__icon"></use>
-          </svg>
-        </li>
-        <li class="we-do__list">
-          <svg class="we-do__svg">
-            <use class="we-do__icon"></use>
-          </svg>
-        </li>
-        <li class="we-do__list">
-          <svg class="we-do__svg">
-            <use class="we-do__icon"></use>
-          </svg>
-        </li>
-      </ul>
-    </div>
+    <section class="we-do">
+      <div class="container">
+        <h2 class="we-do__header">Co oferujemy</h2>
+        <ul class="we-do__list">
+          <li class="we-do__element">Opieka kilkugodzinna</li>
+          <li class="we-do__element">Opieka całodzienna</li>
+          <li class="we-do__element">Dłuższe pobyty</li>
+          <li class="we-do__element">Pobyty w domu</li>
+          <li class="we-do__element">Wyżywienie</li>
+          <li class="we-do__element">Odbiór zwierzaka</li>
+        </ul>
+        <div class="we-do__special">
+          <h2 class="we-do__request">Masz dla nas zadanie specjalne?</h2>
+          <p class="we-do__call"><a href="">Zadzwoń do nas!</a></p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

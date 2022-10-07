@@ -9,20 +9,26 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 30px;
   }
   &__header {
-    font-size: 40px;
-    color: white;
+    font-size: 32px;
     width: 100%;
     max-width: 450px;
     margin: 0 auto;
     text-align: center;
   }
   &__button {
-    text-align: center;
     background-color: #3f72af;
-    color: white;
-    font-size: 32px;
-    padding: 10px 70px;
+    color: $page-white;
+    font-size: 24px;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }
