@@ -1,7 +1,9 @@
-li {
-  list-style: none;
-}
+// li {
+//   list-style: none;
+// }
 * {
+  list-style: none;
+  border: none;
   margin: 0;
   padding: 0;
 }
@@ -14,6 +16,7 @@ body {
 }
 .container {
   margin: 0 auto;
+  padding: 0 15px;
   min-width: 320px;
   max-width: 1200px;
   background-color: $bg-color;
@@ -33,8 +36,25 @@ body {
   width: 40px;
   height: 40px;
 }
-.main__photo {
-  display: flex;
-  max-width: 1200px;
-  object-fit: cover;
-}
+// .main__photo {
+//   display: flex;
+//   width: 100%;
+//   max-width: 1200px;
+//   height: 400px;
+//   object-fit: cover;
+//   object-position: top;
+// }
+// @media screen and (min-width: 768px) {
+//   .main__photo {
+//     height: 400px;
+//     object-fit: cover;
+//     object-position: top right;
+//   }
+// }
+// @media screen and (min-width: 1200px) {
+//   .main__photo {
+//     height: 600px;
+//     object-fit: cover;
+//     object-position: top right;
+//   }
+// }

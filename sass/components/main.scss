@@ -1,0 +1,28 @@
+.main {
+  & .container:first-child {
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    background-image: url(../../img/header.jpg);
+    background-position: top right;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__header {
+    font-size: 40px;
+    color: white;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &__button {
+    text-align: center;
+    background-color: #3f72af;
+    color: white;
+    font-size: 32px;
+    padding: 10px 70px;
+  }
+}
