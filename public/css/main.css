@@ -48,6 +48,34 @@ body {
   height: 40px;
 }
 
+.gradient {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(63, 114, 175, 0.7)), to(rgb(255, 255, 255)));
+  background: linear-gradient(180deg, rgba(63, 114, 175, 0.7) 0%, rgb(255, 255, 255) 100%);
+}
+
+.booking {
+  background-color: #112d4e;
+  font-size: 48px;
+  width: 80%;
+  text-align: center;
+  padding: 30px;
+  border-radius: 4px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.booking a {
+  color: white;
+}
+.booking:hover {
+  scale: 1.1;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+
 .mobile {
   display: none;
   height: 100vh;
@@ -155,7 +183,6 @@ body {
 
 .we-do .container {
   padding: 60px 15px;
-  background-color: rgba(17, 45, 78, 0.4588235294);
 }
 .we-do__header {
   background-color: #f9f7f7;
@@ -200,6 +227,7 @@ body {
   border-radius: 8px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  text-align: center;
 }
 .we-do__element:hover {
   scale: 1.03;
@@ -207,16 +235,7 @@ body {
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
 }
-.we-do__special {
-  width: 100%;
-  height: 80px;
-  text-align: center;
-  margin-top: 30px;
-  background-color: #112d4e;
-}
-.we-do__request {
-  margin-top: 15px;
-}
+
 .main .container:first-child {
   width: 100%;
   max-width: 1200px;
@@ -263,4 +282,121 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.call-us {
+  width: 100%;
+  text-align: center;
+  margin-top: 120px;
+}
+.call-us__question {
+  background-color: white;
+  font-size: 28px;
+  color: black;
+  padding: 30px;
+}
+.call-us__request {
+  margin-top: 30px;
+  font-size: 32px;
+  background-color: #112d4e;
+  padding: 20px;
+}
+.call-us__call {
+  padding: 40px;
+  background-color: #3f72af;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 26px;
+  gap: 20px;
+  border-radius: 0 0 15px 15px;
+}
+.call-us__call a {
+  color: #112d4e;
+}
+.call-us__call :hover {
+  color: white;
+}
+
+.price {
+  color: black;
+}
+.price__header {
+  background-color: white;
+  margin-top: 60px;
+  color: black;
+  width: 100%;
+  padding: 20px;
+  font-size: 32px;
+  text-align: center;
+}
+.price__warning {
+  background-color: rgba(63, 113, 175, 0.8784313725);
+  font-size: 26px;
+  width: calc(100% + 30px);
+  padding: 30px;
+  text-align: center;
+  margin: 30px 0;
+}
+.price__list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.price__list li {
+  font-size: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(63, 113, 175, 0.8784313725);
+  color: black;
+  width: calc((100% - 30px) / 2);
+  border-radius: 15px;
+}
+.price__name {
+  padding: 15px 0 40px;
+}
+.price__cost {
+  padding: 10px;
+  color: white;
+  background-color: #112d4e;
+  width: 100%;
+  text-align: center;
+  border-radius: 0 0 15px 15px;
+}
+.price__within__header {
+  margin: 30px 0 20px;
+  background-color: white;
+  padding: 10px;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .price li {
+    width: calc((100% - 60px) / 3);
+  }
 }/*# sourceMappingURL=main.css.map */
