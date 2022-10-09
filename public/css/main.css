@@ -59,7 +59,7 @@ body {
 .booking {
   background-color: #112d4e;
   font-size: 48px;
-  width: 80%;
+  width: 100%;
   text-align: center;
   padding: 30px;
   border-radius: 4px;
@@ -288,20 +288,37 @@ body {
   width: 100%;
   text-align: center;
   margin-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .call-us__question {
   background-color: white;
   font-size: 28px;
   color: black;
   padding: 30px;
+  width: 100%;
 }
 .call-us__request {
+  min-width: 250px;
+  width: 100%;
+  max-width: 450px;
   margin-top: 30px;
   font-size: 32px;
   background-color: #112d4e;
   padding: 20px;
 }
 .call-us__call {
+  min-width: 250px;
+  width: 100%;
+  max-width: 450px;
   padding: 40px;
   background-color: #3f72af;
   display: -webkit-box;
@@ -399,4 +416,92 @@ body {
   .price li {
     width: calc((100% - 60px) / 3);
   }
+}
+.prepare__header {
+  color: black;
+  font-size: 38px;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+}
+.prepare__list {
+  color: black;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.prepare__element {
+  width: calc((100% - 30px) / 2);
+  background-color: #3f72af;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 18px;
+  color: white;
+}
+
+.opinion__header {
+  color: black;
+  font-size: 38px;
+  text-align: center;
+  width: 100%;
+}
+.opinion__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+.opinion__element {
+  width: 100%;
+  max-width: 450px;
+  padding: 15px 20px;
+  text-align: start;
+  background-color: #3f72af;
+  font-style: italic;
+}
+
+.footer {
+  background-color: #112d4e;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer .container {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.footer__company {
+  font-size: 20px;
+}
+.footer__company__name {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.footer__contact {
+  width: 100%;
+  max-width: 300px;
+}
+.footer__number a {
+  color: white;
 }/*# sourceMappingURL=main.css.map */

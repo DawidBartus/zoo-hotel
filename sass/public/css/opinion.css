@@ -1,0 +1,15 @@
+.opinion__header {
+  color: black;
+  font-size: 38px;
+  text-align: center;
+  width: 100%;
+}
+.opinion__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: calc((100% - 60px) / 2);
+  gap: 30px;
+}/*# sourceMappingURL=opinion.css.map */

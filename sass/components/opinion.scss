@@ -1,0 +1,24 @@
+.opinion {
+  &__header {
+    color: black;
+    font-size: 38px;
+    text-align: center;
+    width: 100%;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  &__element {
+    width: 100%;
+    max-width: 450px;
+    padding: 15px 20px;
+    text-align: start;
+    background-color: $light-blue;
+    font-style: italic;
+  }
+  //   &__user {
+  //   }
+}
