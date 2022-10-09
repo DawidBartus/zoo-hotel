@@ -292,6 +292,7 @@ body {
   width: 100%;
   text-align: center;
   margin-top: 60px;
+  margin-bottom: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -454,7 +455,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-bottom: 60px;
 }
 .opinion__header {
   margin-top: 60px;
@@ -463,6 +463,7 @@ body {
   font-size: 38px;
   text-align: center;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 .opinion__list {
   display: -webkit-box;
@@ -474,6 +475,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 30px;
+  margin-bottom: 60px;
 }
 .opinion__element {
   width: 100%;
@@ -510,10 +512,6 @@ body {
 .footer__company__name {
   font-size: 28px;
   margin-bottom: 10px;
-}
-.footer__contact {
-  width: 100%;
-  max-width: 300px;
 }
 .footer__number a {
   color: white;

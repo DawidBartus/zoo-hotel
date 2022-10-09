@@ -2,9 +2,7 @@
   background-color: #112d4e;
   width: 100%;
   max-width: 1200px;
-
   margin: 0 auto;
-
   & .container {
     height: 200px;
     display: flex;
@@ -20,8 +18,8 @@
     }
   }
   &__contact {
-    width: 100%;
-    max-width: 300px;
+    // width: 100%;
+    // max-width: 300px;
   }
   &__number {
     & a {
