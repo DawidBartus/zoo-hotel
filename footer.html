@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{margin: 0;
+    padding: 0;}
+    .footer{
+        width: 100%;
+        background-color: #FFF5F6;
+    }
+    .container{
+        padding: 0 20px;
+    }
+    .color{
+        width: 34px;
+        height: 34px;
+        background-color: #FEA5BB;
+        border-radius: 50%;
+        display: flex;
+    }
+   
+    svg{
+    margin: auto;
+    /* display: flex;} */}
+    use{fill: #FFFFFF;
+    width: 100%,
+    }
+    .color:hover{
+        background-color: #D41443;
+    }
+    .footer__social{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 28px;
+        justify-content: flex-end
+    }
+    .footer__rights{
+        border-top: 1px solid #E1E1E1;
+        width: 100%;
+        padding-top: 22px;
+        padding-bottom: 25px;
+        margin: 0 auto;
+        color: #907E82;
+        font-size: 14px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__cos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .footer__contact{
+        margin-bottom: 43px;
+        margin-top: 46px;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .footer__header{display: flex;
+    justify-items: flex-start;
+    flex-direction: column;
+    font-weight: 400;}
+    
+    .footer__made{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        color: #FFA5BA;
+        
+    }
+    .footer__passion{
+        display: flex;
+        flex-direction: column;
+        font-size: 34px;
+        color: #D41443;
+    }
+    .footer__phone{
+        color: #D41443;
+        text-decoration: none;
+    }
+</style>
+<body>
+    <section class="footer">
+        <div class="container">
+          <div class="footer__header">
+            <p class="footer__made">homemade ice cream <span>made</span></p>
+            <p class="footer__passion"><span>with</span> passion</p>
+          </div>
+          <div class="footer__social">
+            <a href="https://github.com/" target="_blank" class="color">
+                <svg  width="20" height="20">
+                  <use href="img/svg.svg#github"></use>
+                </svg>
+            </a> 
+            <a href="https://telegram.org/" target="_blank" class="color">
+                <svg width="20" height="15.8">
+                  <use href="img/svg.svg#telegram"></use>
+                </svg>
+            </a>
+            <a  href="https://www.facebook.com/" target="_blank" no class="color">
+                <svg width="9.3" height="20.4">
+                  <use href="img/svg.svg#facebook"></use>
+                </svg>
+            </a>
+        </div>
+            <p class="footer__contact">
+              Feel free to contact
+              <a href="tel:+610383766284" class="footer__phone">+61 (0) 383 766 284</a>
+            </p>
+          
+          <div class="footer__rights"><span class="footer__cos">
+              <p>&#169 2019 - IceCream.&#160</p> <p>  All Rights Reserved.</p>
+          </span></div>
+        </div>
+      </section>
+</body>
+</html>
